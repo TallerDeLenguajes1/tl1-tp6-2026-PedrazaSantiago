@@ -7,6 +7,7 @@ Console.WriteLine("Valor de a:"+a);
 Console.WriteLine("Valor de b:"+b);
 
 int invertido=0;
+Console.WriteLine("Ingrese el numero a invertir:");
 string num = Console.ReadLine();
 if (int.TryParse(num, out int numero))
 {
